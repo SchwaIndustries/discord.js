@@ -2716,7 +2716,8 @@ declare module 'discord.js' {
     | 'GUILD_MESSAGE_TYPING'
     | 'DIRECT_MESSAGES'
     | 'DIRECT_MESSAGE_REACTIONS'
-    | 'DIRECT_MESSAGE_TYPING';
+    | 'DIRECT_MESSAGE_TYPING'
+    | 'MESSAGE_CONTENT';
 
   interface InviteGenerationOptions {
     permissions?: PermissionResolvable;
